@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cover-header {
+    background-image: url('images/shangpung.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.cover-header h1, h2 {
+    max-width: 60%;
+    padding: .2em .4em;
+    border-radius: .5em;
+}
+
+.cover-header h1 {
+    background: #1d3557; 
+}
+.cover-header h2 {
+    background: #457B9D;
+    font-size: 1.2em;
+}
+
+.ac-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main-container {
+    background: #F1FAEE;
+    margin-top: 0;
+    padding-bottom: 2em;
+}
+
+.main-container .ac-head {
+    margin-top: 0;
+    padding: 1.5em 0 1em 0;
+}
+
+.ac-container {
+    display: flex;
+    justify-content: space-evenly; 
+}
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ac-desc {
+    width: 50%;
+}
+p {
+    margin-top: 0;
+}
+.ac-title {
+    margin-bottom: .5em;
+}
+
+.guide-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.guide-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    background: #A8DADC;
+    border-radius: .6em;
+    border-bottom: solid .5em #1D3557;
+    margin: 0 auto;
+}
+
+.guide-img {
+    width: 300px;
+    border-radius: .6em;
+}
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    height: 60%;    
+    margin-left: 1em;
+}
