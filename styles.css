@@ -101,3 +101,10 @@ p {
     height: 60%;    
     margin-left: 1em;
 }
+
+@media (max-width: 600px){
+    .guide-section {
+        width: auto;
+        max-width: 100%;
+    }
+}
